@@ -1,0 +1,127 @@
+/* GENERAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Flipkart yellow & blue theme */
+.text-yellow {
+  color: #FFCC00;
+}
+.btn-yellow {
+  background-color: #FFCC00;
+  border: none;
+  color: #000;
+  transition: 0.3s;
+}
+.btn-yellow:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+/* Primary blue for buttons & stars */
+.text-primary {
+  color: #2874F0 !important;
+}
+.btn-primary {
+  background-color: #2874F0;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background-color: #1a5cd8;
+  transform: scale(1.05);
+}
+
+/* Review card */
+.review-card {
+  border: none;
+  border-left: 5px solid #FFCC00;
+  transition: transform 0.2s;
+}
+.review-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Tabs */
+.nav-tabs .nav-link.active {
+  background-color: #FFCC00;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+/* RELATED PRODUCTS */
+.related-products-wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.related-products {
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.related-products::-webkit-scrollbar {
+  height: 8px;
+}
+
+.related-products::-webkit-scrollbar-thumb {
+  background-color: #2874F0;
+  border-radius: 4px;
+}
+
+.related-products::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Related cards */
+.related-card {
+  min-width: 180px;
+  border: none;
+  transition: transform 0.2s;
+}
+.related-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Scroll buttons for desktop */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #2874F0;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scroll-btn.left {
+  left: -15px;
+}
+
+.scroll-btn.right {
+  right: -15px;
+}
+
+.scroll-btn:hover {
+  background-color: #1a5cd8;
+}
+
+/* Small adjustments for cards and spacing */
+.related-products .card-img-top {
+  border-radius: 5px;
+}
+
+.related-products h6 {
+  margin-bottom: 0.3rem;
+}
+
+.related-products p {
+  margin-bottom: 0.5rem;
+}
